@@ -29,6 +29,8 @@ class App extends Component {
               ...snapShot.data()
             }
           });
+
+          console.log("user test: ",this.state);
         });
       }
 
